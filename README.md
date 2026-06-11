@@ -8,8 +8,13 @@ Objectives
 The primary objective of this project is to develop an intelligent disease prediction system capable of accurately identifying the presence of heart disease from structured medical data. The project focuses on data preprocessing, model training, performance evaluation, and comparative analysis of multiple classification algorithms.
 
 Dataset
-
-The project uses the Heart Disease dataset containing patient health records and clinical measurements. The dataset includes demographic information, cardiovascular indicators, laboratory test results, and medical observations that contribute to heart disease diagnosis.
+This project uses the Heart Disease Dataset containing patient health information such as age, sex, chest pain type, blood pressure, cholesterol level, maximum heart rate, and other clinical attributes. The target variable indicates the presence or absence of heart disease.
+Dataset Source:
+Kaggle: https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset
+UCI Machine Learning Repository:
+https://archive.ics.uci.edu/dataset/45/heart+disease
+The dataset is not included in this repository due to size limitations. Download the dataset from the links above and place heart.csv inside:
+data/heart_kaggle/
 
 Technologies Used
 
